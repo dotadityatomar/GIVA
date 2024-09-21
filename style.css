@@ -61,6 +61,13 @@ img{
 }
 .cards{
     margin: 20px;
+    & .strike{
+        font-size:1rem;
+    }
+    .addtocart{
+        width: 30%;
+        
+    }
     
 }
 

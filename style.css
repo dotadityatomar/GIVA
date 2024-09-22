@@ -203,6 +203,7 @@ img{
         font-size:1rem;
     }
 }
+
 .product_name{
     color: grey;
     font-size: 23px;
@@ -215,6 +216,13 @@ img{
     border-radius: 10px;
     font-size: larger;
     margin-top:10px ;
+    
+}
+.addtocart:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #eb48b2, pink);
+    
+    
     
 }
 

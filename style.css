@@ -132,16 +132,16 @@ img{
     
 }
 .wishlist{
-    position: relative;
-    left:90%;
-    bottom: 90%;
-    width: 10%;
+    position: absolute;
+    top: 0px;
+    right: 10px;
 }
 
 
 
 .cards{
     margin:20px;
+    position: relative;
 
     & .strike {
         font-size:1rem;

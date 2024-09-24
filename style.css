@@ -78,7 +78,7 @@ ul li:hover ul.drop{
     
 }
 .Pendant1:hover{
-    background-color: #ee83c2;
+    background-color:#e9718b;
     color: white;
 
 }
@@ -137,6 +137,19 @@ img{
     right: 10px;
 }
 
+.main-image:hover {
+    opacity: 0;
+}
+
+.hover-image:hover {
+    opacity: 1;
+}
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
 
 
 .cards{
@@ -149,6 +162,7 @@ img{
 }
 .price{
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 .product_name{
     color: grey;

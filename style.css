@@ -53,6 +53,9 @@ ul li:hover ul.drop{
 .details:hover{
     cursor: pointer;
     
+}.Sort_By .BestSelling .drop li:hover{
+    background-color:#0000ee;
+    color: white;
 }
 
 .list{
@@ -115,6 +118,10 @@ img{
     grid-auto-rows: auto;
     gap:-20px;
       
+}
+.Sort_by{
+    background-color: #e9718b;
+    display: inline;
 }
 @media (max-width: 1440px) {
     .container{
